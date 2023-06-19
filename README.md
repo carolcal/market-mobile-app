@@ -1,4 +1,6 @@
-# co810461082d953973032f40e
+#Market List Mobile App
+
+Javascript exercise made in Scrimba Javascript free course.
 
 Quick start:
 
