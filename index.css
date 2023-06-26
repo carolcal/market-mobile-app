@@ -19,13 +19,6 @@ img {
     margin: 0 auto;
 }
 
-#input-field{
-    display: flex;
-    padding: 0px;
-    gap:10px;
-    margin: 30px 0 10px;
-}
-
 input {
     color: #432000;
     background-color: #DCE1EB;
@@ -37,12 +30,30 @@ input {
     font-family: 'Rubik', sans-serif;
 }
 
+#input-field{
+    display: flex;
+    padding: 0px;
+    margin: 30px 0 10px;
+    flex-direction: column;
+}
+
+.input-field{
+    display: flex;
+    padding: 0px;
+    gap:10px;
+    margin: 10px 0;
+}
+
 #item-input-field{
-    width: 70%
+    width: 100%
+}
+
+#number-input-field{
+    width: 30%;
 }
 
 #price-input-field{
-    width: 30%;
+    width: 70%;
 }
 
 button {
@@ -98,10 +109,25 @@ ul li span {
 
 #sum-price>p{
     font-size: 20px;
+    background-color: #FFFDF8;
+    color: #432000;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#delete-all-button{
+    font-size: 20px;
     background-color: #FE8897;
     color: #FFFDF8;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    width: 100%;
+}
+
+#delete-all-button:hover{
+    background-color: #C25364;
 }
