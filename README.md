@@ -1,23 +1,11 @@
-#Market List Mobile App
+# Market List Mobile App
 
-Javascript exercise made in Scrimba Javascript free course.
+## Description
 
-Quick start:
+This project is a mobile app that functions as a shopping cart, allowing users to easily add items they wish to purchase to a list. The app renders all the item information and calculates the total payment value, making it convenient for users to see the final cost. To enhance usability, I also implemented individual delete buttons for each item, as well as a convenient "delete all" button. The project was created using vanilla JavaScript, and I utilized Firebase for data storage.
 
-```
-$ npm install
-$ npm start
-````
+You can access this project online at: https://6499f7df5f772913dfb8a84a--flourishing-marigold-f48c2e.netlify.app/
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## How to use in localhost
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+This is a very simple project, so it doesn't require any additional packages. To view it on your localhost, make sure you have the Live Server extension installed in your VSCode. After downloading the project, open it in VSCode and, with the Live Server extension installed, click on the "Go Live" button that appears at the bottom right.
